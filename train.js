@@ -19,9 +19,6 @@ var frequency = "";
 
 $("#submitTrain").on("click", function(){
  	
- 	
-
-
 	trainName = $('#trainName').val().trim();
 	destination = $('#dest').val().trim();
 	firstTrainTime = $('#1stTime').val().trim();
@@ -41,8 +38,6 @@ $("#submitTrain").on("click", function(){
 		console.log(destination);
 		console.log(firstTrainTime);
 		console.log(frequency);
-	
-	$(".panel-body").empty();
 
 	return false;
 
