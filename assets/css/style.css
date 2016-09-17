@@ -1,0 +1,63 @@
+
+@font-face {
+         font-family: Parisish;
+        src: url(../images/Parisish.ttf);
+}
+
+
+body{
+
+	background-image: url('../images/abandonedTrainTunnel.jpg');
+}
+
+
+.jumbotron{
+	background-color: #800000 !important;
+	opacity: 0.5 !important;
+}
+
+.panel{
+
+	opacity: 0.8 !important;
+}
+
+h1 {
+
+	text-align: center !important;
+	-webkit-text-fill-color: #FFF !important;
+	text-shadow: 0 0 25px #800000 , 0 0 10px #800000 !important; 
+	font-family: Parisish !important;
+	font-weight: bold
+}
+
+p {
+
+	text-align: center !important;
+	-webkit-text-fill-color: #FFF !important;
+	text-shadow: 0 0 25px #800000 , 0 0 10px #800000 !important; 
+	font-family: Parisish !important;
+	font-weight: bold;
+}
+
+
+.btn, .btn:hover, .btn:active, .btn:visited {
+    background-color: #000 !important;
+
+    text-align: center !important;
+	-webkit-text-fill-color: #FFF !important;
+	text-shadow: 0 0 25px #800000 , 0 0 10px #800000 !important; 
+	font-family: Parisish !important;
+}
+
+  
+.panel-heading{
+
+	background-color: #000 !important;
+	background-image: none !important;
+	border-color: #800000 !important;
+	color: white !important;
+}
+
+th{
+	font-weight: bold;
+}
